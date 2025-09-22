@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Jalebi Junction Kudasan | Live & Hot🔥 Amul Ghee Jalebi | Gandhinagar Gujarat</title>
+    <meta name="description"
+        content="Shri Jalebi Junction Kudasan serves Live & Hot🔥 Amul ghee Jalebi, crispy Samosa, Dal & Pyaz Kachori with chatpati chutney and fresh Fafda with sambhra in Gandhinagar, Gujarat.">
+    <meta name="keywords"
+        content="jalebi, amul ghee jalebi, samosa, kachori, fafda, gandhinagar, kudasan, gujarati snacks, hot jalebi, live jalebi">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Shri Jalebi Junction - Live & Hot Amul Ghee Jalebi in Kudasan">
+    <meta property="og:description"
+        content="Fresh, hot jalebis made with pure Amul ghee, crispy samosas, kachoris and more at Shri Jalebi Junction, Kudasan, Gandhinagar.">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #fef2f2;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(153, 27, 27, 0.6)),
+                url('images/hero-jalebi.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 0 80px;
+            margin-top: 60px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
+            }
+
+            to {
+                text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 255, 255, 0.5);
+            }
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fire-emoji {
+            font-size: 2rem;
+            animation: bounce 1s infinite;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Menu Section */
+        .menu {
+            padding: 80px 0;
+            background: #fef2f2;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #dc2626;
+            margin-bottom: 3rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .menu-item {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 8px 25px rgba(220, 38, 38, 0.15);
+            transition: all 0.3s;
+            border: 3px solid transparent;
+        }
+
+        .menu-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(220, 38, 38, 0.25);
+            border-color: #dc2626;
+        }
+
+        .menu-item h3 {
+            color: #dc2626;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .menu-item p {
+            text-align: center;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .special-badge {
+            background: #dc2626;
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .menu-img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .about-img {
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .about-features {
+            background: #fef2f2;
+            border-left: 5px solid #dc2626;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .about-features h3 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #f3f4f6;
+            color: #666;
+        }
+
+        .features-list li:before {
+            content: "🔥";
+            margin-right: 10px;
+        }
+
+        /* Location Section */
+        .location {
+            padding: 80px 0;
+            background: #fef2f2;
+        }
+
+        .location-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .location-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .location-info h3 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .map-placeholder iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 15px;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #dc2626, #991b1b);
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .cta-button {
+            background: white;
+            color: #dc2626;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .about-content,
+            .location-content {
+                grid-template-columns: 1fr;
+            }
+
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🥨 Shri Jalebi Junction</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Live & Hot <span class="fire-emoji">🔥</span> Kesar Jalebis</h1>
+                <p>Fresh Amul Ghee Kesar Jalebis, Crispy Samosas, Dal & Pyaz Kachori with Chatpati Chutney, Fafda with
+                    Sambhara and Gujarati Style Kadhi<br>
+                    <strong>Kudasan, Gandhinagar, Gujarat</strong>
+                </p>
+
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Our Specialties</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/jalebi.png" alt="Live & Hot Amul Ghee Kesar Jalebi" class="menu-img">
+                        <div class="special-badge">SIGNATURE ITEM</div>
+                        <h3>🥨 Live & Hot Amul Ghee Kesar Jalebi</h3>
+                        <p>Fresh, crispy Kesar jalebis made with pure Amul ghee, served hot and dripping with sweetness.
+                            Made fresh in front of your eyes!</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="images/samosa.png" alt="Crispy Samosa" class="menu-img">
+                        <h3>🥟 Crispy Samosa</h3>
+                        <p>Golden, perfectly crispy samosas filled with spiced potatoes and served with our special
+                            chatpati chutney.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="images/kachori.png" alt="Dal & Pyaz Kachori" class="menu-img">
+                        <h3>🌶️ Dal & Pyaz Kachori</h3>
+                        <p>Traditional Gujarati kachoris stuffed with spicy dal and onion filling, served with tangy
+                            chutney.</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="images/fafda.png" alt="Fresh Fafda with Sambhra" class="menu-img">
+                        <h3>🍘 Fresh Fafda with Sambhra</h3>
+                        <p>Crispy, golden fafda served with authentic sambhra (green chili pickle) - a perfect Gujarati
+                            breakfast combination.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/chai.png" alt="Fresh Chai & Beverages" class="menu-img">
+                        <h3>☕ Fresh Chai & Beverages</h3>
+                        <p>Hot, aromatic chai and refreshing beverages to perfectly complement your favorite snacks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Why Choose Shri Jalebi Junction?</h2>
+                <div class="about-content">
+                    <img src="images/main.png" alt="Shri Jalebi Junction Shop" class="about-img">
+                    <div class="about-text">
+                        <p>At Shri Jalebi Junction, we believe in serving authentic Gujarati flavors with the highest
+                            quality ingredients. Our jalebis are made fresh throughout the day using pure Amul ghee,
+                            ensuring you get the perfect taste every time you visit.</p>
+                        <br>
+                        <p>Located in the heart of Kudasan, Gandhinagar, we've been serving the community with
+                            traditional recipes passed down through generations, combined with modern hygiene standards.
+                        </p>
+                        <div class="about-features">
+                            <h3>What Makes Us Special</h3>
+                            <ul class="features-list">
+                                <li>Live jalebi making - Watch your jalebis being made fresh!</li>
+                                <li>Pure Amul ghee used in all preparations</li>
+                                <li>Fresh ingredients sourced daily</li>
+                                <li>Traditional Gujarati recipes</li>
+                                <li>Hygienic preparation methods</li>
+                                <li>Affordable prices for premium quality</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="location">
+            <div class="container">
+                <h2 class="section-title">Visit Us Today</h2>
+                <div class="location-content">
+                    <div class="location-info">
+                        <h3>📍 Address</h3>
+                        <p><strong>Shri Jalebi Junction</strong><br>Kudasan, Gandhinagar<br>Gujarat, India</p>
+                        <h3>🕒 Hours</h3>
+                        <p><strong>Daily:</strong> 7:00 AM - 8:00 PM<br><em>Fresh jalebis available all day!</em></p>
+                        <h3>📞 Contact</h3>
+                        <p><strong>Call us for bulk orders</strong><br>Perfect for parties & celebrations!<br>&#x1F4F1;
+                            9987049410<br>&#128231 yogeshvdj@gmail.com</p>
+                    </div>
+                    <div class="map-placeholder">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.381664929293!2d72.6316075!3d23.1772412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b0055f5151b%3A0x386d81a750b039e6!2sShri%20Jalebi%20Junction!5e0!3m2!1sen!2sin!4v1695360000000!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Craving Fresh, Hot Jalebis? <span class="fire-emoji">🔥</span></h2>
+                <p>Visit Shri Jalebi Junction today and taste the difference!</p>
+                <a href="tel:+919987049410" class="cta-button">📞 Call for Orders</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shri Jalebi Junction, Kudasan, Gandhinagar. All rights reserved.</p>
+            <p>Made with ❤️ for authentic Gujarati flavors</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Animation for menu items
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            item.style.transition = 'all 0.6s ease-out';
+            observer.observe(item);
+        });
+    </script>
+</body>
+
+</html>
